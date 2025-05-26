@@ -1,0 +1,2 @@
+# Exclude IP user files from Linguist’s language stats
+dsp_final.ip_user_files/** linguist-vendored

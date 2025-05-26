@@ -10,6 +10,7 @@
 dsp_final.runs/
 dsp_final.cache/
 dsp_final.hw/
+dsp_final.ip_user_files/
 
 # Python
 __pycache__/
