@@ -38,10 +38,13 @@ Two Python utilities live in `scripts/`:
 Repository Layout
 ----------------
 .
+## Repository Layout
+
+```text
 ├── README.md                    ← project overview & build/run instructions
 │
-├── dsp_final.srcs/                    ← all FPGA/VHDL sources & constraints
-│   ├── sources_1/                     ← VHDL source files
+├── dsp_final.srcs/              ← all FPGA/VHDL sources & constraints
+│   ├── sources_1/               ← VHDL source files
 │   │   ├── new/
 │   │   │   ├── dsp_system_top.vhd
 │   │   │   ├── filter_iir.vhd
@@ -57,22 +60,20 @@ Repository Layout
 │   │   │   ├── uart_rx.vhd
 │   │   │   ├── uart_tx.vhd
 │   │   │   └── rst_sync.vhd
-│   ├── mem/                         ← ROM initialization data
+│   ├── mem/                     ← ROM initialization data
 │   │   ├── sin.rom
 │   │   └── square.rom
-│   │
-│   ├── constrs_1/                   ← pin & timing constraints
+│   ├── constrs_1/               ← pin & timing constraints
 │   │   ├── new/
 │   │   │   └── Spec_analyzer.xdc
-│   │
-│   ├── scripts/                     ← utility scripts & generators
-│   │   ├── genrom.py                ← builds .rom files from data
-│   │   └── uart_acquisition.py      ← captures and plots UART data
-│
-│   ├── sim_1/                       ← test benches, simulation scripts
+│   ├── scripts/                 ← utility scripts & generators
+│   │   ├── genrom.py            ← builds .rom files from data
+│   │   └── uart_acquisition.py  ← captures and plots UART data
+│   ├── sim_1/                   ← test benches, simulation scripts
 │   │   ├── new/
 │   │   │   └── dsp_tb.vhd
 
+```
 
 Prerequisites
 -------------
