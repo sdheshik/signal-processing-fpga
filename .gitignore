@@ -1,0 +1,20 @@
+# Xilinx/Vivado artifacts
+*.bit
+*.mcd
+*.ngc
+*.jou
+*.log
+*.wdb
+
+# Vivado build dirs
+dsp_final.runs/
+dsp_final.cache/
+dsp_final.hw/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+*.swp
