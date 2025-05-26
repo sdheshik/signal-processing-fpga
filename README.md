@@ -37,9 +37,6 @@ Two Python utilities live in `scripts/`:
 
 Repository Layout
 ----------------
-.
-## Repository Layout
-
 ```text
 ├── README.md                    ← project overview & build/run instructions
 │
