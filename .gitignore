@@ -5,6 +5,7 @@
 *.jou
 *.log
 *.wdb
+*.xpr
 
 # Vivado build dirs
 dsp_final.runs/
